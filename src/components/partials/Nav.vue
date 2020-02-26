@@ -10,7 +10,7 @@
       </div>
       <ul>
         <router-link to="/" class="navbar-item">Home</router-link>
-        <router-link to="/" class="navbar-item">About</router-link>
+        <router-link to="/about" class="navbar-item">About</router-link>
       </ul>
         <button>Sign In</button>
     </div>
@@ -52,8 +52,6 @@ export default {
   padding: 1rem;
   align-items: center;
   background-color: #2074c1;
-  
-
 }
 
 #main-nav .social {

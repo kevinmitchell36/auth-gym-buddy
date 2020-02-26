@@ -15,7 +15,7 @@
         <p>We'll auto generate a workout based off your suggestions.</p> 
     </div>
     <div class="suggestions">
-        <a class="generate" href="#"><i class="fas fa-pencil-alt"></i>Build</a>
+        <router-link to="/routines"><i class="fas fa-pencil-alt"></i>Build</router-link>
         <p>Select your routines from your database.</p> 
     </div>
   </div>
@@ -56,6 +56,8 @@ export default {
   font-size: 25px;
   text-shadow: 2px 2px 4px #000000;
   width: 100%;
+  /* border: 2px black solid; */
+  margin-left: 25px;
 }
 
 .suggestions p {
